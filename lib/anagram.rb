@@ -15,7 +15,7 @@ class Anagram
       sorted_words = words.sort
 
       end
-      if sort_words == sorted_array
+      if sorted_words == sorted_array
         words
       
       end
