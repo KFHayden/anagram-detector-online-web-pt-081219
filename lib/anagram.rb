@@ -17,7 +17,7 @@ class Anagram
       end
       if sort_words == sorted_array
         words
-      end
+      
       end
     end
     
