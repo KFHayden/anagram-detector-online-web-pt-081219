@@ -3,14 +3,14 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @words = word
+    @word = word
   end
   
   def match(word)
     #uses the select method to return an array of all anagrams
     #if no matches, returns an empty array
-    array = @words.split(" ")
-    array
+    array = @word.split(" ")
+    sorted_array = array.sort
     
     
   end
