@@ -11,6 +11,7 @@ class Anagram
     #if no matches, returns an empty array
     array.select do |words|
       @word.split.sort == words.split.sort
+    end
   end  
  
   
