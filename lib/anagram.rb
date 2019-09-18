@@ -10,7 +10,7 @@ class Anagram
     #uses the select method to return an array of all anagrams
     #if no matches, returns an empty array
     word.select do |words|
-      @word.split.sort == words.split.sort
+      (@word.split.sort) == (words.split.sort)
     end
   end  
  
