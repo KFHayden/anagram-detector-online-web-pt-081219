@@ -11,6 +11,11 @@ class Anagram
     #if no matches, returns an empty array
     array = @word.split(" ")
     sorted_array = array.sort
+    sorted_array.select do |words|
+      if sorted_array == words
+        words
+      end
+    end
     
     
   end
