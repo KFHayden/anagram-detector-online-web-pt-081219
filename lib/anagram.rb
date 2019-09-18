@@ -10,8 +10,7 @@ class Anagram
     #uses the select method to return an array of all anagrams
     #if no matches, returns an empty array
     array = @word.split(" ")
-    sorted_array = array.sort
-    sorted_array(word)
+    array(word)
   end  
  
   
