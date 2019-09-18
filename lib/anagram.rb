@@ -13,7 +13,7 @@ class Anagram
     sorted_array = array.sort
     sorted_array.select do |words|
       if sorted_array == words
-        words
+        words.sort
       end
     end
     
